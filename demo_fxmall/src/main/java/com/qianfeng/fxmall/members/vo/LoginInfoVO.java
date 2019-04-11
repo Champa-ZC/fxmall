@@ -1,4 +1,4 @@
-package com.qianfeng.fxmall.goods.vo;
+package com.qianfeng.fxmall.members.vo;
 
 public class LoginInfoVO {
 

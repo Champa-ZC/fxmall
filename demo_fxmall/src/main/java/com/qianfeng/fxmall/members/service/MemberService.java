@@ -1,11 +1,11 @@
-package com.qianfeng.fxmall.goods.service;
+package com.qianfeng.fxmall.members.service;
 
 import com.qianfeng.fxmall.commons.Utils.MD5Utils;
 import com.qianfeng.fxmall.commons.exception.AccountNotFoundException;
 import com.qianfeng.fxmall.commons.exception.PasswordErrorException;
-import com.qianfeng.fxmall.goods.bean.WxbMemeber;
-import com.qianfeng.fxmall.goods.mapper.MemberMapper;
-import com.qianfeng.fxmall.goods.vo.LoginInfoVO;
+import com.qianfeng.fxmall.members.vo.LoginInfoVO;
+import com.qianfeng.fxmall.members.bean.WxbMemeber;
+import com.qianfeng.fxmall.members.mapper.MemberMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

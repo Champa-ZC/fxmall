@@ -1,6 +1,6 @@
-package com.qianfeng.fxmall.goods.mapper;
+package com.qianfeng.fxmall.members.mapper;
 
-import com.qianfeng.fxmall.goods.bean.WxbMemeber;
+import com.qianfeng.fxmall.members.bean.WxbMemeber;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

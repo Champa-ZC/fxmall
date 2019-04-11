@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.qianfeng.fxmall.goods.mapper.MemberMapper">
+<mapper namespace="com.qianfeng.fxmall.members.mapper.MemberMapper">
     
-    <resultMap id="baseResultMap" type="com.qianfeng.fxmall.goods.bean.WxbMemeber">
+    <resultMap id="baseResultMap" type="com.qianfeng.fxmall.members.bean.WxbMemeber">
         <id property="memeberId" column="memeber_id" javaType="java.lang.String"/>
         <result property="qqNum" column="qq_num" javaType="java.lang.String"/>
         <result property="recomUser" column="recom_user" javaType="java.lang.String"/>
